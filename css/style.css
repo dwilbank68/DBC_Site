@@ -1,9 +1,17 @@
+html {
+  min-width: 1000px;
+  max-width: 1000px;
+
+}
+
 body {
   font-family: 'Annie Use Your Telescope', cursive;
   font-size: 20px;
   color: #0000CC;
-  background: #420600 url('img/notebook_paper-1155x1077.jpg') repeat;
-
+  background: url('img/notebook_paper.jpg');
+  background-repeat: no-repeat;
+    min-width: 1000px;
+  max-width: 1000px;
 }
 
 a {
@@ -24,7 +32,8 @@ h2 {
 
 .btn {
   color: #FAF3BC;
-  background: #4FB69F url('img/texture.png') no-repeat right top;
+  background: #4FB69F url('img/texture.png');
+  background-repeat: no-repeat; right top;
   padding: 15px 30px;
   margin: 40px 0px;
   border-radius: 25px;
@@ -69,19 +78,3 @@ ul.nav li a {
   margin: 15px 0px;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
