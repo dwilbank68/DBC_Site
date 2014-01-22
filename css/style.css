@@ -4,8 +4,6 @@ body {
   color: #0000CC;
   background: url('img/notebook_paper_no_margin.jpg');
   background-repeat: repeat-y;
-  min-width: 1000px;
-  max-width: 1000px;
 }
 
 a {
@@ -15,7 +13,7 @@ a {
 
 h1 {
   font-size: 2em;
-  letter-spacing: -1.5px;
+  text-align: center;
 }
 
 h2 {
@@ -31,6 +29,10 @@ h2 {
   margin: 40px 0px;
   border-radius: 25px;
   text-transform: uppercase;
+}
+
+.new-cupcakes {
+  margin-left: 50px;
 }
 
 .btn:hover {
@@ -55,14 +57,21 @@ ul.nav li a {
 /*#intro {
   margin: 50px 0 75px 0;
 }*/
+#spacer1{border: 2px solid orange;}
+#spacer2{border: 2px solid green;}
 
 #new-cupcakes img {
   border: 8px solid #FAF3BC;
   margin: 0 0 20px 0;
 }
 
-#featured-cupcake img {
+#inspiration {
+  margin-left: 200px;
+}
+
+#inspiration img{
   border: 8px solid #FF0000;
+/*  margin-left: 200px;*/
 }
 
 #copyright {
